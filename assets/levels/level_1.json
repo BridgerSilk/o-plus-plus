@@ -1,0 +1,20 @@
+{
+    "name": "Level 1",
+    "player_start": {
+        "x": 10,
+        "y": 10
+    },
+    "tiles": [
+        { "type": "wall", "x": 0, "y": 0, "width": 200, "height": 10 },
+        { "type": "wall", "x": 0, "y": 0, "width": 10, "height": 200 },
+        { "type": "wall", "x": 190, "y": 0, "width": 10, "height": 200 },
+        { "type": "goal", "x": 180, "y": 180, "width": 10, "height": 10 }
+    ],
+    "obstacles": [
+        { "type": "mine", "x": 50, "y": 50 },
+        { "type": "mine", "x": 150, "y": 150 }
+    ],
+    "goals": [
+        { "x": 180, "y": 180 }
+    ]
+}
